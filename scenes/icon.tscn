@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cab6t6xn04gei"]
+
+[ext_resource type="Texture2D" uid="uid://brul71tyxt3i0" path="res://assets/icons/icon.svg" id="1_v3x7k"]
+
+[node name="IconDisplay" type="CanvasLayer"]
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="IconTexture" type="TextureRect" parent="CenterContainer"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+texture = ExtResource("1_v3x7k")
+expand_mode = 1
+stretch_mode = 4
